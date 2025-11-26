@@ -1,6 +1,4 @@
-class Calculations: 
-    def __init__(self):
-        pass
+class Calculations:
     def sum(self, a, b):
         return a + b
     
@@ -22,12 +20,7 @@ class Calculations:
         print("=" * 40)
         
         while True:
-            print("\nChoose an operation:")
-            print("1. Sum")
-            print("2. Subtract")
-            print("3. Multiply")
-            print("4. Divide")
-            print("5. Exit")
+            print("""\nChoose an operation:\n1. Sum\n2. Subtract\n3. Multiply\n4. Divide\n5. Exit""")
             
             choice = input("\nEnter your choice (1-5): ").strip()
             
